@@ -30,6 +30,7 @@ export const getCurrentAnime = async (userId: string): Promise<ICurrentAnime[]> 
       episode: item.anime.episode,
       favoritecharacter: item.anime.favoritecharacter,
       speed: item.anime.speed,
+      anime_flg: item.anime.anime_flg,
     },
   }));
 };
